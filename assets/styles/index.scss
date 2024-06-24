@@ -1,0 +1,11 @@
+//BE CAREFUL: @import method will be deprecated, but you can see it on some olds projets
+
+//If you have variables, settings must be delcared first
+@import "./settings";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/section";
+
+//NEW Method is usable with Dart Sass only and uses @use
+//Not an issue at this stage as Sass is only used in development mode. The only file used in production is the CSS file
